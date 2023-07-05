@@ -8,11 +8,9 @@ const btnRoll = document.getElementById("btn")
 
 
 btnRoll.addEventListener("click", function(){
-
     //print valori generati
     document.getElementById("my-number").innerHTML = userNumber;
     document.getElementById("ia-number").innerHTML = iaNumber; 
-
     if ( userNumber > iaNumber){
         document.getElementById("outcome").innerHTML = "COMPLIMENTI HAI VINTO!!!!"
     } else if ( userNumber == iaNumber) {
