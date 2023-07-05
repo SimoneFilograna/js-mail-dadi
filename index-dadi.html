@@ -13,9 +13,39 @@
 </head>
 <body>
     <header>
-
+        <div class="container d-flex gap-3 justify-content-center p-4">
+            <i class="fa-solid fa-dice fs-1 text-danger"></i>
+            <h1 class="fw-bold">DADI</h1>
+            <i class="fa-solid fa-dice fs-1 text-danger"></i>
+        </div>
     </header>
     <main>
+
+        <section class="p-5">
+
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-4">
+                        <div class="box p-2 border d-flex justify-content-center">
+                            <h2>Il tuo numero è <span id="my-number"></span></h2>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="box p-2 border d-flex justify-content-center">
+                            <h2>Il numero dell'IA è <span id="ia-number"></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 text-center">
+                    <button type="button" class="btn btn-danger px-5 py-3" id="btn">Roll</button>
+                </div>
+
+                <div class="mt-5 text-center">
+                    <h2 class="p-4" id="outcome"></h2>
+                </div>
+            </div>
+
+        </section>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
