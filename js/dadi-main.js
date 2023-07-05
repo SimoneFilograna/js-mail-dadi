@@ -15,7 +15,7 @@ btnRoll.addEventListener("click", function(){
         document.getElementById("outcome").innerHTML = "COMPLIMENTI HAI VINTO!!!!"
     } else if ( userNumber == iaNumber) {
         document.getElementById("outcome").innerHTML = "PAREGGIO, RIPROVIAMO!!"
-    }  else {
+    } else {
         document.getElementById("outcome").innerHTML = "MI DISPIACE HAI PERSO, SARA' PER LA PROSSIMA VOLTA!!"
     }
 })
