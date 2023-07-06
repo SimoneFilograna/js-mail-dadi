@@ -1,13 +1,15 @@
-const userNumber = Math.floor((Math.random() * 6) +1);
-console.log(userNumber)
 
-const iaNumber = Math.floor((Math.random() * 6) +1);
-console.log(iaNumber)
 
 const btnRoll = document.getElementById("btn")
 
 
 btnRoll.addEventListener("click", function(){
+
+    const userNumber = Math.floor((Math.random() * 6) +1);
+    console.log(userNumber)
+
+    const iaNumber = Math.floor((Math.random() * 6) +1);
+    console.log(iaNumber)
     //print valori generati
     document.getElementById("my-number").innerHTML = userNumber;
     document.getElementById("ia-number").innerHTML = iaNumber; 
